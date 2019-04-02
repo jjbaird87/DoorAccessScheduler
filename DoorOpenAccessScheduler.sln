@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoorOpenAccessScheduler.Service", "DoorOpenAccessScheduler\DoorOpenAccessScheduler.Service.csproj", "{A6D8F8E6-068E-4B79-A6D4-01DCFB6A8191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoorOpenAccessScheduler.UI", "DoorOpenAccessScheduler.UI\DoorOpenAccessScheduler.UI.csproj", "{DBE35B93-9728-4F94-939A-B01E67DE4FAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6D8F8E6-068E-4B79-A6D4-01DCFB6A8191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D8F8E6-068E-4B79-A6D4-01DCFB6A8191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D8F8E6-068E-4B79-A6D4-01DCFB6A8191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D8F8E6-068E-4B79-A6D4-01DCFB6A8191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE35B93-9728-4F94-939A-B01E67DE4FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE35B93-9728-4F94-939A-B01E67DE4FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE35B93-9728-4F94-939A-B01E67DE4FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE35B93-9728-4F94-939A-B01E67DE4FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC26944A-05E3-40EA-90EA-E277CB6A5B45}
+	EndGlobalSection
+EndGlobal

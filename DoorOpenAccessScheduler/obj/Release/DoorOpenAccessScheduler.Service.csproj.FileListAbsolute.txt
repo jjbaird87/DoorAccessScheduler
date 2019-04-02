@@ -1,0 +1,9 @@
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\bin\Release\DoorOpenAccessScheduler.exe.config
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\bin\Release\DoorOpenAccessScheduler.exe
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\bin\Release\DoorOpenAccessScheduler.pdb
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\bin\Release\Morpho.MorphoAccess.Maci.dll
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.Service.csprojAssemblyReference.cache
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.Service.csproj.CoreCompileInputs.cache
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.Service.csproj.CopyComplete
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.exe
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.pdb

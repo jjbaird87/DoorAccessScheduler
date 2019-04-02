@@ -1,0 +1,11 @@
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\Debug\DoorOpenAccessScheduler.UI.exe.config
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\Debug\DoorOpenAccessScheduler.UI.exe
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\Debug\DoorOpenAccessScheduler.UI.pdb
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Debug\DoorOpenAccessScheduler.UI.csprojAssemblyReference.cache
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Debug\DoorOpenAccessScheduler.UI.Properties.Resources.resources
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Debug\DoorOpenAccessScheduler.UI.csproj.GenerateResource.cache
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Debug\DoorOpenAccessScheduler.UI.csproj.CoreCompileInputs.cache
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Debug\DoorOpenAccessScheduler.UI.exe
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Debug\DoorOpenAccessScheduler.UI.pdb
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Debug\DoorOpenAccessScheduler.UI.csproj.CopyComplete
+C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Debug\DoorOpenAccessScheduler.UI.ConfigurationForm.resources
