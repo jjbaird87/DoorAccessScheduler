@@ -7,3 +7,11 @@ C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\
 C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.Service.csproj.CopyComplete
 C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.exe
 C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.pdb
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\Release\DoorOpenAccessScheduler.exe.config
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\Release\DoorOpenAccessScheduler.exe
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\Release\DoorOpenAccessScheduler.pdb
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.Service.csprojAssemblyReference.cache
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.Service.csproj.CoreCompileInputs.cache
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.Service.csproj.CopyComplete
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.exe
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler\obj\Release\DoorOpenAccessScheduler.pdb

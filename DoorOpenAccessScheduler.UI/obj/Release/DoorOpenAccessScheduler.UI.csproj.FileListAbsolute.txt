@@ -13,3 +13,14 @@ C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\o
 C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.csproj.CopyComplete
 C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.exe
 C:\Users\jjbai\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.pdb
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\Release\DoorOpenAccessScheduler.UI.exe.config
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\Release\DoorOpenAccessScheduler.UI.exe
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\Release\DoorOpenAccessScheduler.UI.pdb
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.csprojAssemblyReference.cache
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.ConfigurationForm.resources
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.Properties.Resources.resources
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.csproj.GenerateResource.cache
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.csproj.CoreCompileInputs.cache
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.csproj.CopyComplete
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.exe
+C:\Users\jjbai\Documents\GitHub\DoorAccessScheduler\DoorOpenAccessScheduler.UI\obj\Release\DoorOpenAccessScheduler.UI.pdb

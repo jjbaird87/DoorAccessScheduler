@@ -36,7 +36,6 @@
     <ROW Component="AI_ExePath" ComponentId="{CBFC327E-B7B1-438F-A3A2-0924B1522E96}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
     <ROW Component="DoorOpenAccessScheduler.UI.exe" ComponentId="{51BD2A60-0E77-4DDF-922B-0BC3A48A37C9}" Directory_="APPDIR" Attributes="0" KeyPath="DoorOpenAccessScheduler.UI.exe"/>
     <ROW Component="DoorOpenAccessScheduler.exe" ComponentId="{32246333-01DF-4BE3-977F-3DCE58E5C485}" Directory_="APPDIR" Attributes="0" KeyPath="DoorOpenAccessScheduler.exe"/>
-    <ROW Component="DoorOpenAccessScheduler.exe.config" ComponentId="{F1F61E20-564A-42BC-AFAA-497FA964D2AB}" Directory_="APPDIR" Attributes="0" KeyPath="DoorOpenAccessScheduler.UI.exe.config" Type="0"/>
     <ROW Component="IPv4InputBox.dll" ComponentId="{2B1135DB-95CF-49E9-BF20-5FE4923F8960}" Directory_="APPDIR" Attributes="0" KeyPath="IPv4InputBox.dll"/>
     <ROW Component="Morpho.MorphoAccess.Maci.dll" ComponentId="{0FF036E6-3A8F-4AD4-8776-5E44A96426FD}" Directory_="APPDIR" Attributes="0" KeyPath="Morpho.MorphoAccess.Maci.dll"/>
     <ROW Component="Morpho.MorphoAccess.dll" ComponentId="{F555C177-E278-4C27-B843-25146B5A7522}" Directory_="APPDIR" Attributes="0" KeyPath="Morpho.MorphoAccess.dll"/>
@@ -48,20 +47,19 @@
     <ROW Component="macijavanative.dll" ComponentId="{188806B9-35DA-429E-8CAF-C1B0858F41E0}" Directory_="APPDIR" Attributes="0" KeyPath="macijavanative.dll"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
-    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="AI_ExePath DoorOpenAccessScheduler.UI.exe DoorOpenAccessScheduler.exe DoorOpenAccessScheduler.exe.config IPv4InputBox.dll Morpho.MorphoAccess.Maci.dll Morpho.MorphoAccess.dll Morpho.MorphoAcquisition.dll ProductInformation SHORTCUTDIR maci_dotnet_native.dll macicore.dll macijavanative.dll"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="AI_ExePath DoorOpenAccessScheduler.UI.exe DoorOpenAccessScheduler.exe IPv4InputBox.dll Morpho.MorphoAccess.Maci.dll Morpho.MorphoAccess.dll Morpho.MorphoAcquisition.dll ProductInformation SHORTCUTDIR maci_dotnet_native.dll macicore.dll macijavanative.dll"/>
     <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
-    <ROW File="DoorOpenAccessScheduler.UI.exe" Component_="DoorOpenAccessScheduler.UI.exe" FileName="DOOROP~2.EXE|DoorOpenAccessScheduler.UI.exe" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\bin\Release\DoorOpenAccessScheduler.UI.exe" SelfReg="false" NextFile="DoorOpenAccessScheduler.UI.exe.config" DigSign="true"/>
-    <ROW File="DoorOpenAccessScheduler.UI.exe.config" Component_="DoorOpenAccessScheduler.exe.config" FileName="DOOROP~2.CON|DoorOpenAccessScheduler.UI.exe.config" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler.UI\bin\Release\DoorOpenAccessScheduler.UI.exe.config" SelfReg="false" NextFile="IPv4InputBox.dll"/>
-    <ROW File="DoorOpenAccessScheduler.exe" Component_="DoorOpenAccessScheduler.exe" FileName="DOOROP~1.EXE|DoorOpenAccessScheduler.exe" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\bin\Release\DoorOpenAccessScheduler.exe" SelfReg="false" NextFile="DoorOpenAccessScheduler.UI.exe" DigSign="true"/>
-    <ROW File="IPv4InputBox.dll" Component_="IPv4InputBox.dll" FileName="IPV4IN~1.DLL|IPv4InputBox.dll" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\Debug\IPv4InputBox.dll" SelfReg="false" NextFile="maci_dotnet_native.dll"/>
-    <ROW File="Morpho.MorphoAccess.Maci.dll" Component_="Morpho.MorphoAccess.Maci.dll" FileName="MORPHO~1.DLL|Morpho.MorphoAccess.Maci.dll" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\DoorOpenAccessScheduler\bin\Debug\Morpho.MorphoAccess.Maci.dll" SelfReg="false" NextFile="DoorOpenAccessScheduler.exe"/>
-    <ROW File="Morpho.MorphoAccess.dll" Component_="Morpho.MorphoAccess.dll" FileName="MORPHO~2.DLL|Morpho.MorphoAccess.dll" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\Debug\Morpho.MorphoAccess.dll" SelfReg="false" NextFile="Morpho.MorphoAcquisition.dll"/>
-    <ROW File="Morpho.MorphoAcquisition.dll" Component_="Morpho.MorphoAcquisition.dll" FileName="MORPHO~3.DLL|Morpho.MorphoAcquisition.dll" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\Debug\Morpho.MorphoAcquisition.dll" SelfReg="false"/>
-    <ROW File="maci_dotnet_native.dll" Component_="maci_dotnet_native.dll" FileName="MACI_D~1.DLL|maci_dotnet_native.dll" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\Debug\maci_dotnet_native.dll" SelfReg="false" NextFile="macicore.dll"/>
-    <ROW File="macicore.dll" Component_="macicore.dll" FileName="MACI-C~1.DLL|maci-core.dll" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\Debug\maci-core.dll" SelfReg="false" NextFile="macijavanative.dll"/>
-    <ROW File="macijavanative.dll" Component_="macijavanative.dll" FileName="MACI-J~1.DLL|maci-java-native.dll" Attributes="0" SourcePath="..\..\..\..\source\repos\DoorOpenAccessScheduler\Debug\maci-java-native.dll" SelfReg="false" NextFile="Morpho.MorphoAccess.dll"/>
+    <ROW File="DoorOpenAccessScheduler.UI.exe" Component_="DoorOpenAccessScheduler.UI.exe" FileName="DOOROP~2.EXE|DoorOpenAccessScheduler.UI.exe" Attributes="0" SourcePath="..\Debug\DoorOpenAccessScheduler.UI.exe" SelfReg="false" NextFile="IPv4InputBox.dll" DigSign="true"/>
+    <ROW File="DoorOpenAccessScheduler.exe" Component_="DoorOpenAccessScheduler.exe" FileName="DOOROP~1.EXE|DoorOpenAccessScheduler.exe" Attributes="0" SourcePath="..\Debug\DoorOpenAccessScheduler.exe" SelfReg="false" NextFile="DoorOpenAccessScheduler.UI.exe" DigSign="true"/>
+    <ROW File="IPv4InputBox.dll" Component_="IPv4InputBox.dll" FileName="IPV4IN~1.DLL|IPv4InputBox.dll" Attributes="0" SourcePath="..\Debug\IPv4InputBox.dll" SelfReg="false" NextFile="maci_dotnet_native.dll"/>
+    <ROW File="Morpho.MorphoAccess.Maci.dll" Component_="Morpho.MorphoAccess.Maci.dll" FileName="MORPHO~1.DLL|Morpho.MorphoAccess.Maci.dll" Attributes="0" SourcePath="..\Debug\Morpho.MorphoAccess.Maci.dll" SelfReg="false" NextFile="DoorOpenAccessScheduler.exe"/>
+    <ROW File="Morpho.MorphoAccess.dll" Component_="Morpho.MorphoAccess.dll" FileName="MORPHO~2.DLL|Morpho.MorphoAccess.dll" Attributes="0" SourcePath="..\Debug\Morpho.MorphoAccess.dll" SelfReg="false" NextFile="Morpho.MorphoAcquisition.dll"/>
+    <ROW File="Morpho.MorphoAcquisition.dll" Component_="Morpho.MorphoAcquisition.dll" FileName="MORPHO~3.DLL|Morpho.MorphoAcquisition.dll" Attributes="0" SourcePath="..\Debug\Morpho.MorphoAcquisition.dll" SelfReg="false"/>
+    <ROW File="maci_dotnet_native.dll" Component_="maci_dotnet_native.dll" FileName="MACI_D~1.DLL|maci_dotnet_native.dll" Attributes="0" SourcePath="..\Debug\maci_dotnet_native.dll" SelfReg="false" NextFile="macicore.dll"/>
+    <ROW File="macicore.dll" Component_="macicore.dll" FileName="MACI-C~1.DLL|maci-core.dll" Attributes="0" SourcePath="..\Debug\maci-core.dll" SelfReg="false" NextFile="macijavanative.dll"/>
+    <ROW File="macijavanative.dll" Component_="macijavanative.dll" FileName="MACI-J~1.DLL|maci-java-native.dll" Attributes="0" SourcePath="..\Debug\maci-java-native.dll" SelfReg="false" NextFile="Morpho.MorphoAccess.dll"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
@@ -304,10 +302,12 @@
     <ROW XmlAttribute="key_1" XmlElement="add_1" Name="key" Flags="15" Order="0" Value="OpenDoorSchedule"/>
     <ROW XmlAttribute="key_2" XmlElement="add_2" Name="key" Flags="15" Order="0" Value="ServiceLastRun"/>
     <ROW XmlAttribute="sku" XmlElement="supportedRuntime" Name="sku" Flags="14" Order="1" Value=".NETFramework,Version=v4.5"/>
+    <ROW XmlAttribute="sku_1" XmlElement="supportedRuntime_1" Name="sku" Flags="14" Order="1" Value=".NETFramework,Version=v4.5"/>
     <ROW XmlAttribute="value" XmlElement="add" Name="value" Flags="14" Order="1" Value="Server=.;Database=MorphoManager;User Id=MorphoManager;Password=MorphoManager;"/>
     <ROW XmlAttribute="value_1" XmlElement="add_1" Name="value" Flags="14" Order="1" Value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;DoorOpenSchedule&gt;&lt;DayOfTheWeekSlots&gt;&lt;DaySlot&gt;&lt;DayOfWeek&gt;Sunday&lt;/DayOfWeek&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;070000&lt;/StartTime&gt;&lt;EndTime&gt;200000&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/DaySlot&gt;&lt;DaySlot&gt;&lt;DayOfWeek&gt;Monday&lt;/DayOfWeek&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;060000&lt;/StartTime&gt;&lt;EndTime&gt;180000&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/DaySlot&gt;&lt;DaySlot&gt;&lt;DayOfWeek&gt;Tuesday&lt;/DayOfWeek&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;060000&lt;/StartTime&gt;&lt;EndTime&gt;180000&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/DaySlot&gt;&lt;DaySlot&gt;&lt;DayOfWeek&gt;Wednesday&lt;/DayOfWeek&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;060000&lt;/StartTime&gt;&lt;EndTime&gt;180000&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/DaySlot&gt;&lt;DaySlot&gt;&lt;DayOfWeek&gt;Thursday&lt;/DayOfWeek&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;060000&lt;/StartTime&gt;&lt;EndTime&gt;180000&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/DaySlot&gt;&lt;DaySlot&gt;&lt;DayOfWeek&gt;Friday&lt;/DayOfWeek&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;060000&lt;/StartTime&gt;&lt;EndTime&gt;235900&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/DaySlot&gt;&lt;DaySlot&gt;&lt;DayOfWeek&gt;Saturday&lt;/DayOfWeek&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;060000&lt;/StartTime&gt;&lt;EndTime&gt;180000&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/DaySlot&gt;&lt;/DayOfTheWeekSlots&gt;&lt;HolidayExclusions&gt;&lt;Exclusion&gt;&lt;Id&gt;0&lt;/Id&gt;&lt;Name&gt;Christmas&lt;/Name&gt;&lt;StartDateTime&gt;2019-12-25T00:00:00&lt;/StartDateTime&gt;&lt;EndDateTime&gt;2019-12-26T23:59:14&lt;/EndDateTime&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;000000&lt;/StartTime&gt;&lt;EndTime&gt;235900&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/Exclusion&gt;&lt;Exclusion&gt;&lt;Id&gt;1&lt;/Id&gt;&lt;Name&gt;Today Test&lt;/Name&gt;&lt;StartDateTime&gt;2019-04-02T00:00:00&lt;/StartDateTime&gt;&lt;EndDateTime&gt;2019-04-02T23:59:59&lt;/EndDateTime&gt;&lt;Slots&gt;&lt;Slot&gt;&lt;StartTime&gt;100000&lt;/StartTime&gt;&lt;EndTime&gt;130000&lt;/EndTime&gt;&lt;/Slot&gt;&lt;/Slots&gt;&lt;/Exclusion&gt;&lt;/HolidayExclusions&gt;&lt;/DoorOpenSchedule&gt;"/>
     <ROW XmlAttribute="value_2" XmlElement="add_2" Name="value" Flags="14" Order="1" Value="04/02/2019 18:50:25"/>
     <ROW XmlAttribute="version" XmlElement="supportedRuntime" Name="version" Flags="14" Order="0" Value="v4.0"/>
+    <ROW XmlAttribute="version_1" XmlElement="supportedRuntime_1" Name="version" Flags="14" Order="0" Value="v4.0"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.XmlElementComponent">
     <ROW XmlElement="add" ParentElement="appSettings" Name="add" Condition="1" Order="0" Flags="14"/>
@@ -315,10 +315,14 @@
     <ROW XmlElement="add_2" ParentElement="appSettings" Name="add" Condition="1" Order="2" Flags="14"/>
     <ROW XmlElement="appSettings" ParentElement="configuration" Name="appSettings" Condition="1" Order="1" Flags="14"/>
     <ROW XmlElement="configuration" Name="configuration" Condition="1" Order="0" Flags="30"/>
+    <ROW XmlElement="configuration_1" Name="configuration" Condition="1" Order="0" Flags="30"/>
     <ROW XmlElement="startup" ParentElement="configuration" Name="startup" Condition="1" Order="0" Flags="14"/>
+    <ROW XmlElement="startup_1" ParentElement="configuration_1" Name="startup" Condition="1" Order="0" Flags="14"/>
     <ROW XmlElement="supportedRuntime" ParentElement="startup" Name="supportedRuntime" Condition="1" Order="0" Flags="14"/>
+    <ROW XmlElement="supportedRuntime_1" ParentElement="startup_1" Name="supportedRuntime" Condition="1" Order="0" Flags="14"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.XmlFileComponent">
-    <ROW XmlFile="DoorOpenAccessScheduler.exe.Config" FileName="DOOROP~1.CON|DoorOpenAccessScheduler.exe.Config" DirProperty="APPDIR" Component="ProductInformation" RootElement="configuration" Flags="89" Version="1.0" Encoding="utf-8" IndentUnits="2"/>
+    <ROW XmlFile="DoorOpenAccessScheduler.UI.exe.conf" FileName="DOOROP~2.CON|DoorOpenAccessScheduler.UI.exe.config" DirProperty="APPDIR" Component="IPv4InputBox.dll" RootElement="configuration_1" Flags="89" Version="1.0" Encoding="utf-8" IndentUnits="2"/>
+    <ROW XmlFile="DoorOpenAccessScheduler.exe.Config" FileName="DOOROP~1.CON|DoorOpenAccessScheduler.exe.Config" DirProperty="APPDIR" Component="IPv4InputBox.dll" RootElement="configuration" Flags="89" Version="1.0" Encoding="utf-8" IndentUnits="2"/>
   </COMPONENT>
 </DOCUMENT>
